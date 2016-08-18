@@ -189,4 +189,8 @@ message Variant {
   // determination of genotype with respect to this variant. `Call`s in this
   // array are implicitly associated with this `Variant`.
   repeated Call calls = 12;
+
+  // The VCF FILTER value.
+  repeated string filter = 13;
 }
+
